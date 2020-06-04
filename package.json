@@ -1,0 +1,22 @@
+{
+  "name": "fileserver",
+  "version": "1.0.0",
+  "description": "Static File Server for various types of files to be stored/uploaded/downloaded/etc...",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Michael Lowenstein",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "finalhandler": "^1.1.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "node-static": "^0.7.11",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1"
+  }
+}
